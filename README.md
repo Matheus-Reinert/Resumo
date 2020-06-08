@@ -31,5 +31,15 @@ Array: é uma estrutura com posições fixas, cada elemento da lista deve ser co
 
 Encadeadas: Listas encadeadas são estruturas de dados lineares e dinâmicas, a grande vantagem que elas possuem em relação ao uso de vetor é o fato de terem tamanho máximo relativamente infinito (o tamanho máximo é o da memória do computador), ao mesmo tempo que podem ter o tamanho mínimo de 1 elemento evitando o desperdício de memória.
 
+-----------------------------------------------------------------------------------------------------
+
+Pilhas 
+
+Uma pilha é uma estrutura de dados que admite remoção de elementos e inserção de novos objetos.  Mais especificamente, uma  pilha (= stack)  é uma estrutura sujeita à seguinte regra de operação:  sempre que houver uma remoção, o elemento removido é o que está na estrutura há menos tempo.
+
+Em outras palavras, o primeiro objeto a ser inserido na pilha é o último a ser removido. Essa política é conhecida pela sigla LIFO (= Last-In-First-Out).
+
+
+
 
 
