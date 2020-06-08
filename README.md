@@ -21,4 +21,15 @@ d->dia = 31; d->mes = 12; d->ano = 2016;
 
 Note que sizeof não é uma função mas um operador, tal como return, por exemplo. Os parênteses na expressão sizeof (data) são necessários porque data é um tipo-de-dados.  O operador sizeof também pode ser aplicado diretamente a uma variável:  se var é uma variável então  sizeof var  é o número de bytes ocupado por var.
 
+-----------------------------------------------------------------------------------------------------
+
+Listas
+
+Listas são conjuntos de elementos, objetos, variáveis, tarefas, ou qualquer coisa que se possa enumerar e formar um conjunto. POdem ser implementadas de várias formas, mas de maneira geral podemos separar em duas principais: Arrays ou Encadeadas.
+
+Array: é uma estrutura com posições fixas, cada elemento da lista deve ser colocado em uma posição no array;
+
+Encadeadas: Listas encadeadas são estruturas de dados lineares e dinâmicas, a grande vantagem que elas possuem em relação ao uso de vetor é o fato de terem tamanho máximo relativamente infinito (o tamanho máximo é o da memória do computador), ao mesmo tempo que podem ter o tamanho mínimo de 1 elemento evitando o desperdício de memória.
+
+
 
